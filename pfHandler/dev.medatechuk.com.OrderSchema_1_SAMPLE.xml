@@ -1,0 +1,87 @@
+<request>
+  <customer name="000223" desc="ANNE ENTWISLE">
+    <contact name="ANNE ENTWISLE" email="catherine.entwisle@btinternet.com" phone="07799195650" />
+    <address type="bill">
+      <address1>Address 1</address1>
+      <address2>Address 2</address2>
+      <address3>Address 3</address3>
+      <city>City</city>
+      <county>County</county>
+      <postcode>Postcode</postcode>
+      <country>Country</country>
+    </address>
+    <address type="deliver">
+      <address1>Address 1</address1>
+      <address2>Address 2</address2>
+      <address3>Address 3</address3>
+      <city>City</city>
+      <county>County</county>
+      <postcode>Postcode</postcode>
+      <country>Country</country>
+    </address>
+    <order orderref="132" date="2018-11-16T12:44:50.710">
+      <item name="BGVN718-NVY-34" qty="2000" due="2010-09-07T00:00:00" price="11.4900">
+        <property name="STYLE DESCRIPTION" value="ST ANDREW CA ACRYLIC JUMPER" />
+        <property name="COLOUR" value="NAVY" />
+        <property name="PART" value="34" />
+        <property name="PART" value="BGVN718" />
+        <property name="CARRIER" value="#" />
+        <property name="RANGE" value="RG07" />
+      </item>
+      <item name="RYM002" qty="1000" due="2010-08-29T00:00:00" price="1.6900">
+        <property name="CARRIER" value="RYM" />
+        <property name="CARRIER" value="#" />
+        <property name="RANGE" value="CARR" />
+      </item>
+      <payment provider="realex" reference="1234" />
+    </order>
+    <order orderref="132" date="2018-11-16T12:44:50.710">
+      <item name="BNBG283-NVY-34" qty="1000" due="2012-08-14T00:00:00" price="34.0000">
+        <property name="STYLE DESCRIPTION" value="ST ANDREWS CATH GIRLS BLAZER" />
+        <property name="COLOUR" value="NAVY" />
+        <property name="PART" value="34" />
+        <property name="PART" value="BNBG283" />
+        <property name="CARRIER" value="13yrs" />
+        <property name="RANGE" value="RG05" />
+      </item>
+      <item name="LRP-BLU-32" qty="1000" due="2012-07-15T00:00:00" price="12.1000">
+        <property name="STYLE DESCRIPTION" value="2PK LS NON IRON REVER" />
+        <property name="COLOUR" value="BLUE" />
+        <property name="PART" value="32" />
+        <property name="PART" value="LRP" />
+        <property name="CARRIER" value="12yrs" />
+        <property name="RANGE" value="RG01" />
+      </item>
+      <item name="BGVN718-NVY-32" qty="2000" due="2012-07-15T00:00:00" price="14.5000">
+        <property name="STYLE DESCRIPTION" value="ST ANDREW CA ACRYLIC JUMPER" />
+        <property name="COLOUR" value="NAVY" />
+        <property name="PART" value="32" />
+        <property name="PART" value="BGVN718" />
+        <property name="CARRIER" value="#" />
+        <property name="RANGE" value="RG07" />
+      </item>
+      <item name="RYM002" qty="1000" due="2012-07-15T00:00:00" price="0.0000">
+        <property name="CARRIER" value="RYM" />
+        <property name="CARRIER" value="#" />
+        <property name="RANGE" value="CARR" />
+      </item>
+      <payment provider="realex" reference="1234" />
+    </order>
+    <order orderref="132" date="2018-11-16T12:44:50.710">
+      <item name="BCAV718-NVY-M" qty="1000" due="2015-01-13T00:00:00" price="15.4200">
+        <property name="STYLE DESCRIPTION" value="ST ANDREWS COT BLEND JUMP" />
+        <property name="COLOUR" value="NAVY" />
+        <property name="PART" value="M" />
+        <property name="PART" value="BCAV718" />
+        <property name="CARRIER" value="14yrs" />
+        <property name="RANGE" value="RG07" />
+      </item>
+      <item name="RYM002" qty="1000" due="2014-12-14T00:00:00" price="2.1200">
+        <property name="CARRIER" value="RYM" />
+        <property name="CARRIER" value="#" />
+        <property name="RANGE" value="CARR" />
+      </item>
+      <payment provider="realex" reference="1234" />
+    </order>
+  </customer>
+</request>
